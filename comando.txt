@@ -1,0 +1,6 @@
+nasm -f elf32 lerNumeros.asm -o lerNumeros.o
+
+ld -m elf_i386 lerNumeros.o -o lerNumeros
+
+./lerNumeros
+
